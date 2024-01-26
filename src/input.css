@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.dark {
+     .dark\:glow {
+          background: linear-gradient(306deg,
+                    rgba(2, 0, 36, 1) 0%,
+                    rgba(9, 9, 121, 1) 35%,
+                    rgba(0, 212, 255, 1) 100%);
+          border-radius: 70%;
+          filter: blur(100px);
+          height: 500px;
+          opacity: 0.6;
+          width: 400px;
+
+          -webkit-animation: GlowAnimation 5s ease infinite;
+          -moz-animation: GlowAnimation 5s ease infinite;
+          animation: GlowAnimation 5s ease infinite;
+     }
+}
+
+.profile {
+     background: linear-gradient(306deg, #0027ff, #ba00ff, #ff0000);
+     background-size: 600% 600%;
+
+     -webkit-animation: AnimationName 5s ease infinite;
+     -moz-animation: AnimationName 5s ease infinite;
+     animation: AnimationName 5s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+     0% {
+          background-position: 0% 50%;
+     }
+
+     50% {
+          background-position: 100% 50%;
+     }
+
+     100% {
+          background-position: 0% 50%;
+     }
+}
+
+@-moz-keyframes AnimationName {
+     0% {
+          background-position: 0% 50%;
+     }
+
+     50% {
+          background-position: 100% 50%;
+     }
+
+     100% {
+          background-position: 0% 50%;
+     }
+}
+
+@keyframes AnimationName {
+     0% {
+          background-position: 0% 50%;
+     }
+
+     50% {
+          background-position: 100% 50%;
+     }
+
+     100% {
+          background-position: 0% 50%;
+     }
+}
+
+@-webkit-keyframes GlowAnimation {
+     0% {
+          opacity: 100%;
+     }
+
+     50% {
+          opacity: 20%;
+     }
+
+     100% {
+          opacity: 100%;
+     }
+}
+
+@-moz-keyframes GlowAnimation {
+     0% {
+          opacity: 100%;
+     }
+
+     50% {
+          opacity: 20%;
+     }
+
+     100% {
+          opacity: 100%;
+     }
+}
+
+@keyframes GlowAnimation {
+     0% {
+          opacity: 100%;
+     }
+
+     50% {
+          opacity: 20%;
+     }
+
+     100% {
+          opacity: 100%;
+     }
+}
