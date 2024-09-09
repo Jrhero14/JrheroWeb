@@ -23,7 +23,8 @@
                          <div class="flex items-center">
                               <img class="block dark:hidden" src="img/logo-lightk.png" width="6%" alt="">
                               <img class="hidden dark:block" src="img/logo-dark.png" width="6%" alt="">
-                              <a class="flex-none text-xl font-bold text-blue-600" href="index.html" aria-label="Brand">Jeremi
+                              <a class="flex-none text-xl font-bold text-blue-600" href="index.html"
+                                   aria-label="Brand">Jeremi
                                    Herodian</a>
                          </div>
                          <div class="sm:hidden">
@@ -53,7 +54,7 @@
                               <a class="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-300 dark:hover:text-gray-400 sm:py-6"
                                    href="resume.html">Resume</a>
                               <a class="font-medium text-blue-600 sm:py-6" href="portofolio.html">Portofolio</a>
-                              <a class="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-300 dark:hover:text-gray-400 sm:py-6"
+                              <a class="hover:cursor-not-allowed font-medium text-gray-600 hover:text-gray-400 dark:text-gray-300 dark:hover:text-gray-400 sm:py-6"
                                    href="#">Publication</a>
                               <a class="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-300 dark:hover:text-gray-400 sm:py-6 "
                                    href="contact.html">Contact</a>
@@ -72,8 +73,7 @@ after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem]
      <!-- End Header -->
 
      <!-- Main Content Start -->
-     <main
-          class="relative max-w-7xl w-full mx-auto sm:flex sm:items-center sm:justify-between px-6 lg:px-8 mt-16 lg:mt-24">
+     <main class="relative max-w-7xl w-full mx-auto px-6 lg:px-8 mt-16 lg:mt-24">
           <!-- Headline -->
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 justify-center place-items-center">
                <div class="col-span-3">
@@ -88,14 +88,16 @@ after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem]
                          Career Projects</div>
                </div>
 
-               <div class="shadow-lg rounded-b-2xl group col-span-3 lg:col-span-1">
+               <div class="shadow-lg rounded-b-2xl group col-span-3 lg:col-span-1 h-full">
                     <!-- Card -->
                     <div
                          class="group flex flex-col h-full group-hover:scale-105 transition-transform duration-500 ease-in-out bg-white border border-gray-200 shadow-sm rounded-2xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-                         <div style="background-image: url('img/project1.png');"
-                              class="h-[210px] bg-[url('/public/img/project1.png')] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center rounded-t-xl">
+                         <div
+                              class="h-[210px] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center rounded-t-xl">
+                              <img loading="lazy" class="w-full h-full object-cover object-center rounded rounded-t-xl"
+                                   src="./img/project1.png" alt="" srcset="">
                          </div>
-                         <div class="p-4 md:p-6">
+                         <div class="p-4 md:p-6 h-full flex flex-col justify-between">
                               <span class="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
                                    Front-End/UI-UX
                               </span>
@@ -106,6 +108,14 @@ after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem]
                                    Template website top up games dan voucher toko nexus. Design website dibangun
                                    menggunakan tools figma dan slicing menggunakan Boostrap 5.
                               </p>
+                              <div class="flex gap-2 mt-2">
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        Bootstrap 5</p>
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        E-Commerce</p>
+                              </div>
                          </div>
                          <div
                               class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-gray-700 dark:divide-gray-700">
@@ -118,14 +128,16 @@ after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem]
                     <!-- End Card -->
                </div>
 
-               <div class="shadow-lg rounded-b-2xl group col-span-3 lg:col-span-1">
+               <div class="shadow-lg rounded-b-2xl group col-span-3 lg:col-span-1 h-full">
                     <!-- Card -->
                     <div
                          class="group flex flex-col h-full group-hover:scale-105 transition-transform duration-500 ease-in-out bg-white border border-gray-200 shadow-sm rounded-2xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-                         <div style="background-image: url('img/project2.png');"
-                              class="h-[210px] bg-[url('/public/img/project2.png')] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center rounded-t-xl">
+                         <div
+                              class="h-[210px] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center rounded-t-xl">
+                              <img loading="lazy" class="w-full h-full object-cover object-center rounded rounded-t-xl"
+                                   src="./img/project2.png" alt="" srcset="">
                          </div>
-                         <div class="p-4 md:p-6">
+                         <div class="p-4 md:p-6 h-full flex flex-col justify-between">
                               <span class="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
                                    Fullstack
                               </span>
@@ -137,6 +149,20 @@ after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem]
                                    untuk upacara adat Bali. Website ini dibuat secara fullstack menggunakan
                                    Django
                               </p>
+                              <div class="flex gap-2 mt-2">
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        Pyhton</p>
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        Django</p>
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        Bootstrap 5</p>
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        E-Commerce</p>
+                              </div>
                          </div>
                          <div
                               class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-gray-700 dark:divide-gray-700">
@@ -149,12 +175,14 @@ after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem]
                     <!-- End Card -->
                </div>
 
-               <div class="shadow-lg rounded-b-2xl group col-span-3 lg:col-span-1">
+               <div class="shadow-lg rounded-b-2xl group col-span-3 lg:col-span-1 h-full">
                     <!-- Card -->
                     <div
                          class="group flex flex-col h-full group-hover:scale-105 transition-transform duration-500 ease-in-out bg-white border border-gray-200 shadow-sm rounded-2xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-                         <div style="background-image: url('img/project3.png');"
-                              class="h-[210px] bg-[url('/public/img/project3.png')] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center rounded-t-xl">
+                         <div
+                              class="h-[210px] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center rounded-t-xl">
+                              <img loading="lazy" class="w-full h-full object-cover object-center rounded rounded-t-xl"
+                                   src="./img/project3.png" alt="" srcset="">
                          </div>
                          <div class="p-4 md:p-6">
                               <span class="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
@@ -168,6 +196,20 @@ after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem]
                                    absensi terhadap siswa magang atau PKL. Sistem dibuat menggunakan konsep
                                    fullstack dengan framework Django.
                               </p>
+                              <div class="flex gap-2 mt-2">
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        Pyhton</p>
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        Django</p>
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        Bootstrap 5</p>
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        CRUD</p>
+                              </div>
                          </div>
                          <div
                               class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-gray-700 dark:divide-gray-700">
@@ -180,12 +222,14 @@ after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem]
                     <!-- End Card -->
                </div>
 
-               <div class="shadow-lg rounded-b-2xl group col-span-3 lg:col-span-1">
+               <div class="shadow-lg rounded-b-2xl group col-span-3 lg:col-span-1 h-full">
                     <!-- Card -->
                     <div
                          class="flex flex-col h-full group-hover:scale-105 transition-transform duration-500 ease-in-out bg-white border border-gray-200 shadow-sm rounded-2xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-                         <div style="background-image: url('img/project4.jpg');"
-                              class="h-[210px] bg-[url('/public/img/project4.jpg')] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center rounded-t-xl">
+                         <div
+                              class="h-[210px] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center rounded-t-xl">
+                              <img loading="lazy" class="w-full h-full object-cover object-center rounded rounded-t-xl"
+                                   src="./img/project4.jpg" alt="" srcset="">
                          </div>
                          <div class="p-4 md:p-6">
                               <span class="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
@@ -201,6 +245,17 @@ after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem]
                                    Tensorflow
                                    untuk AI.
                               </p>
+                              <div class="flex gap-2 mt-2">
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        Pyhton</p>
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        Django REST</p>
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        ML Model</p>
+                              </div>
                          </div>
                          <div
                               class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-gray-700 dark:divide-gray-700">
@@ -213,14 +268,16 @@ after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem]
                     <!-- End Card -->
                </div>
 
-               <div class="shadow-lg rounded-b-2xl group col-span-3 lg:col-span-1">
+               <div class="shadow-lg rounded-b-2xl group col-span-3 lg:col-span-1 h-full">
                     <!-- Card -->
                     <div
                          class="flex flex-col h-full group-hover:scale-105 transition-transform duration-500 ease-in-out bg-white border border-gray-200 shadow-sm rounded-2xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-                         <div style="background-image: url('img/project7.png');"
-                              class="h-[210px] bg-[url('/public/img/project7.png')] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center rounded-t-xl">
+                         <div
+                              class="h-[210px] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center rounded-t-xl">
+                              <img loading="lazy" class="w-full h-full object-cover object-center rounded rounded-t-xl"
+                                   src="./img/project7.png" alt="" srcset="">
                          </div>
-                         <div class="p-4 md:p-6 h-[254px]">
+                         <div class="p-4 md:p-6 h-full flex flex-col justify-between">
                               <span class="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
                                    Front-End/UI-UX
                               </span>
@@ -229,8 +286,17 @@ after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem]
                               </h3>
                               <p class="mt-3 text-gray-500">
                                    Good Rental Motor adalah website persewaan kendaraan bermotor yang berpusat di Bali.
-                                   Tampilan dari webiste ini dibangun menggunakan Boostrap 5
+                                   Tampilan dari webiste ini dibangun menggunakan Boostrap 5 dengan tampilan modern dan
+                                   responsive.
                               </p>
+                              <div class="flex gap-2 mt-2">
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        Bootstrap 5</p>
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        Landing Page</p>
+                              </div>
                          </div>
                          <div
                               class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-gray-700 dark:divide-gray-700">
@@ -243,14 +309,16 @@ after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem]
                     <!-- End Card -->
                </div>
 
-               <div class="shadow-lg rounded-b-2xl group col-span-3 lg:col-span-1">
+               <div class="shadow-lg rounded-b-2xl group col-span-3 lg:col-span-1 h-full">
                     <!-- Card -->
                     <div
                          class="flex flex-col h-full group-hover:scale-105 transition-transform duration-500 ease-in-out bg-white border border-gray-200 shadow-sm rounded-2xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-                         <div style="background-image: url('img/project10.png');"
-                              class="h-[210px] bg-[url('/public/img/project10.png')] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center rounded-t-xl">
+                         <div
+                              class="h-[210px] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center rounded-t-xl">
+                              <img loading="lazy" class="w-full h-full object-cover object-center rounded rounded-t-xl"
+                                   src="./img/project10.png" alt="" srcset="">
                          </div>
-                         <div class="p-4 md:p-6">
+                         <div class="p-4 md:p-6 h-full flex flex-col justify-between">
                               <span class="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
                                    Fullstack
                               </span>
@@ -263,6 +331,17 @@ after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem]
                                    Ini adalah project client pertama saya yang saya kembangkan bersama teman saya saat
                                    berkuliah.
                               </p>
+                              <div class="flex gap-2 mt-2">
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        Pyhton</p>
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        Django</p>
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        Bulma CSS</p>
+                              </div>
                          </div>
                          <div
                               class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-gray-700 dark:divide-gray-700">
@@ -281,14 +360,16 @@ after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem]
                          Personal Projects</div>
                </div>
 
-               <div class="shadow-lg rounded-b-2xl group col-span-3 lg:col-span-1">
+               <div class="shadow-lg rounded-b-2xl group col-span-3 lg:col-span-1 h-full">
                     <!-- Card -->
                     <div
                          class="flex flex-col h-full group-hover:scale-105 transition-transform duration-500 ease-in-out bg-white border border-gray-200 shadow-sm rounded-2xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-                         <div style="background-image: url('img/project5.png');"
-                              class="h-[210px] bg-[url('/public/img/project5.png')] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center rounded-t-xl">
+                         <div
+                              class="h-[210px] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center rounded-t-xl">
+                              <img loading="lazy" class="w-full h-full object-cover object-center rounded rounded-t-xl"
+                                   src="./img/project5.png" alt="" srcset="">
                          </div>
-                         <div class="p-4 md:p-6">
+                         <div class="p-4 md:p-6 h-full flex flex-col justify-between">
                               <span class="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
                                    Front-End/UI-UX
                               </span>
@@ -301,6 +382,14 @@ after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem]
                                    PrelineUI sebagai basis komponen UI-nya. Website ini mendukung tampilan light mode
                                    dan dark mode.
                               </p>
+                              <div class="flex gap-2 mt-2">
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        Tailwind CSS</p>
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        E-Commerce</p>
+                              </div>
                          </div>
                          <div
                               class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-gray-700 dark:divide-gray-700">
@@ -313,14 +402,16 @@ after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem]
                     <!-- End Card -->
                </div>
 
-               <div class="shadow-lg rounded-b-2xl group col-span-3 lg:col-span-1">
+               <div class="shadow-lg rounded-b-2xl group col-span-3 lg:col-span-1 h-full">
                     <!-- Card -->
                     <div
                          class="flex flex-col h-full group-hover:scale-105 transition-transform duration-500 ease-in-out bg-white border border-gray-200 shadow-sm rounded-2xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-                         <div style="background-image: url('img/project6.png');"
-                              class="h-[210px] bg-[url('/public/img/project6.png')] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center rounded-t-xl">
+                         <div
+                              class="h-[210px] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center rounded-t-xl">
+                              <img loading="lazy" class="w-full h-full object-cover object-center rounded rounded-t-xl"
+                                   src="./img/project6.png" alt="" srcset="">
                          </div>
-                         <div class="p-4 md:p-6">
+                         <div class="p-4 md:p-6 h-full flex flex-col justify-between">
                               <span class="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
                                    Chatbot API
                               </span>
@@ -333,6 +424,17 @@ after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem]
                                    scikit-learn untuk model Naive Bayes. Aplikasi bisa berjalan berbasis website dan
                                    telegram app.
                               </p>
+                              <div class="flex gap-2 mt-2">
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        Pyhton</p>
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        ML-Model</p>
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        Fastapi</p>
+                              </div>
                          </div>
                          <div
                               class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-gray-700 dark:divide-gray-700">
@@ -345,14 +447,16 @@ after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem]
                     <!-- End Card -->
                </div>
 
-               <div class="shadow-lg rounded-b-2xl group col-span-3 lg:col-span-1">
+               <div class="shadow-lg rounded-b-2xl group col-span-3 lg:col-span-1 h-full">
                     <!-- Card -->
                     <div
                          class="flex flex-col h-full group-hover:scale-105 transition-transform duration-500 ease-in-out bg-white border border-gray-200 shadow-sm rounded-2xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-                         <div style="background-image: url('img/project8.png');"
-                              class="h-[210px] bg-[url('/public/img/project8.png')] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center rounded-t-xl">
+                         <div
+                              class="h-[210px] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center rounded-t-xl">
+                              <img loading="lazy" class="w-full h-full object-cover object-center rounded rounded-t-xl"
+                                   src="./img/project8.png" alt="" srcset="">
                          </div>
-                         <div class="p-4 md:p-6 h-[254px]">
+                         <div class="p-4 md:p-6 h-full flex flex-col justify-between">
                               <span class="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
                                    Fullstack
                               </span>
@@ -361,8 +465,23 @@ after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem]
                               </h3>
                               <p class="mt-3 text-gray-500">
                                    Toko Bunga Forist adalah toko bunga online. Website dibuat menggunakan framework
-                                   Laravel, Tailwind CSS, dan sudah terintegrasi dengan Payment Gateway Midtrans.
+                                   Laravel 10, tampilan menggunakan Tailwind CSS, dan sudah terintegrasi dengan Payment
+                                   Gateway Midtrans.
                               </p>
+                              <div class="flex gap-2 mt-2">
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        PHP</p>
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        Laravel</p>
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        Tailwind</p>
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        E-Commerce</p>
+                              </div>
                          </div>
                          <div
                               class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-gray-700 dark:divide-gray-700">
@@ -375,12 +494,14 @@ after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem]
                     <!-- End Card -->
                </div>
 
-               <div class="shadow-lg rounded-b-2xl group col-span-3 lg:col-span-1">
+               <div class="shadow-lg rounded-b-2xl group col-span-3 lg:col-span-1 h-full">
                     <!-- Card -->
                     <div
                          class="flex flex-col h-full group-hover:scale-105 transition-transform duration-500 ease-in-out bg-white border border-gray-200 shadow-sm rounded-2xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-                         <div style="background-image: url('img/project9.png');"
-                              class="h-[210px] bg-[url('/public/img/project9.png')] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center rounded-t-xl">
+                         <div
+                              class="h-[210px] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center rounded-t-xl">
+                              <img loading="lazy" class="w-full h-full object-cover object-center rounded rounded-t-xl"
+                                   src="./img/project9.png" alt="" srcset="">
                          </div>
                          <div class="p-4 md:p-6">
                               <span class="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
@@ -393,11 +514,62 @@ after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem]
                                    CosmoPlay adalah template website toko cosplay online. Website ini dibuat mengunakan
                                    framework CSS yaitu Tailwind CSS.
                               </p>
+                              <div class="flex gap-2 mt-2">
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        Tailwind CSS</p>
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        E-Commerce</p>
+                              </div>
                          </div>
                          <div
                               class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-gray-700 dark:divide-gray-700">
                               <a class="w-full py-3 px-4 rounded-b-2xl inline-flex justify-center items-center gap-x-2 text-sm font-medium bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                                    href="https://cosmo-play-design-web.vercel.app/">
+                                   View Website
+                              </a>
+                         </div>
+                    </div>
+                    <!-- End Card -->
+               </div>
+
+               <div class="shadow-lg rounded-b-2xl group col-span-3 lg:col-span-1 h-full">
+                    <!-- Card -->
+                    <div
+                         class="flex flex-col h-full group-hover:scale-105 transition-transform duration-500 ease-in-out bg-white border border-gray-200 shadow-sm rounded-2xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+                         <div
+                              class="h-[210px] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center rounded-t-xl">
+                              <img loading="lazy" class="w-full h-full object-cover object-center rounded rounded-t-xl"
+                                   src="./img/project11.png" alt="" srcset="">
+                         </div>
+                         <div class="p-4 md:p-6">
+                              <span class="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
+                                   Front-End
+                              </span>
+                              <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-300 dark:hover:text-white">
+                                   Simple Calculator
+                              </h3>
+                              <p class="mt-3 text-gray-500">
+                                   Simple Calculator adalah project ReactJS pertama saya dengan pure no template atau
+                                   tutorial. Semua logic dibangun secara mandiri
+                              </p>
+                              <div class="flex gap-2 mt-2">
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        Javascripts</p>
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        React Js</p>
+                                   <p
+                                        class="px-2 bg-blue-400 dark:bg-transparent border border-current text-slate-100 lg:border-white rounded-lg text-sm">
+                                        Tailwind CSS</p>
+                              </div>
+                         </div>
+                         <div
+                              class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-gray-700 dark:divide-gray-700">
+                              <a class="w-full py-3 px-4 rounded-b-2xl inline-flex justify-center items-center gap-x-2 text-sm font-medium bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                                   href="https://jrhero-simple-calculator.netlify.app/">
                                    View Website
                               </a>
                          </div>
